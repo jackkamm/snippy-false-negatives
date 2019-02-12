@@ -1,0 +1,44 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##commandLine="snippy-core --ref NC_016845.1.fasta SRR3219271 SRR3219831"
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="Allele type: snp ins del">
+##contig=<ID=NC_016845.1,len=5333942>
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##bcftools_viewVersion=1.9+htslib-1.9
+##bcftools_viewCommand=view --min-ac 1:minor -Oz -o diffs.vcf.gz core.vcf; Date=Tue Feb 12 01:27:56 2019
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths">
+##bcftools_annotateVersion=1.9+htslib-1.9
+##bcftools_annotateCommand=annotate -a repileup.vcf.gz -c FMT/AD diffs.vcf.gz; Date=Tue Feb 12 01:34:06 2019
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SRR3219271	SRR3219831
+NC_016845.1	1767726	.	A	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:73,0	1:1,85
+NC_016845.1	1767727	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:73,0	1:1,85
+NC_016845.1	2519417	.	C	T	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,99	0:94,0
+NC_016845.1	2999873	.	C	T	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,9	0:0,8
+NC_016845.1	3434675	.	C	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,10	1:0,12
+NC_016845.1	3434676	.	T	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,10	1:0,12
+NC_016845.1	3728326	.	A	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,13	0:0,9
+NC_016845.1	3744194	.	C	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,12	0:0,9
+NC_016845.1	3757675	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:1,7	1:0,7
+NC_016845.1	3757810	.	G	T	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,8	1:0,7
+NC_016845.1	3807064	.	G	T	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:63,3	0:57,1
+NC_016845.1	3819590	.	G	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,8	1:0,19
+NC_016845.1	3834511	.	G	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,6	1:0,6
+NC_016845.1	3936967	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,7	1:0,8
+NC_016845.1	4145095	.	G	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,14	0:0,10
+NC_016845.1	4149311	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,7	0:0,6
+NC_016845.1	4171825	.	A	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,6	1:0,8
+NC_016845.1	4201982	.	C	T	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,8	1:0,9
+NC_016845.1	4280327	.	C	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,9	1:0,8
+NC_016845.1	4284222	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,7	0:0,7
+NC_016845.1	4288672	.	C	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,6	1:0,10
+NC_016845.1	4297333	.	A	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,18	0:1,13
+NC_016845.1	4297498	.	G	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,16	1:0,14
+NC_016845.1	4308984	.	C	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,10	1:0,10
+NC_016845.1	4309935	.	G	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,9	1:0,15
+NC_016845.1	4334377	.	C	T	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,15	0:0,8
+NC_016845.1	4369099	.	A	G	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,93	0:98,0
+NC_016845.1	4400154	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	1:0,6	0:0,7
+NC_016845.1	4405624	.	G	A	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:1,7	1:0,11
+NC_016845.1	4568811	.	T	C	.	PASS	TYPE=snp;AC=1;AN=2	GT:AD	0:0,10	1:0,12
